@@ -4,6 +4,6 @@ import strategy.GasFillStrategy;
 
 public class Car extends Auto {
     public Car() {
-        this.fillStrategy = new GasFillStrategy();
+        fillStrategy = new GasFillStrategy();
     }
 }
